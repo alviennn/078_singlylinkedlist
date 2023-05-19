@@ -9,13 +9,17 @@ public:
 	Node* next;
 };
 
-class list {
+class List {
 	Node* START;
 public:
-	list();
+	List();
 	void addNode();
 	bool search(int nim, Node** current, Node** previous);
 	bool listempty();
 	bool delNode(int element);
 	void traverse();
 };
+
+List::List() {
+	START = NULL;
+}
