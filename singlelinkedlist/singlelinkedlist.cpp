@@ -8,3 +8,5 @@ public:
 	char nama[20];
 	Node* next;
 };
+
+
