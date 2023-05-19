@@ -45,4 +45,11 @@ void List::addNode()/*menambah sebuah Node kedalam list*/
 		START = nodeBaru;
 		return;
 	}
+	Node* previous, * current;
+
+	current = START;
+	previous = START;
+
+
+	
 }
