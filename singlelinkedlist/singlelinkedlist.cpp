@@ -63,3 +63,9 @@ void List::addNode()/*menambah sebuah Node kedalam list*/
 	nodeBaru->next = current;
 	previous->next = nodeBaru;
 }
+bool List::listempty() {
+	if (START == NULL)
+		return true;
+	else
+		return false;
+}
